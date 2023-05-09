@@ -2,6 +2,8 @@
 
 # FFmpeg cheatsheet
 
+#### Cut/trim video
+
 ##### Cut using a duration
 
 `ffmpeg -i input.mp4 -ss 10 -t 230 -c:v copy -c:a copy output.mp4`
