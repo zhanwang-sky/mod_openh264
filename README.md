@@ -29,3 +29,17 @@ https://shotstack.io/learn/use-ffmpeg-to-trim-video/
 #### Convert YUV444p to YUV420p
 
 `ffmpeg -i input.mp4 -c:v libx264 -pix_fmt yuv420p output.mp4`
+
+#### Calculate PSNR
+
+$$
+MSE=\frac{1}{mn}\sum_{i=0}^{m-1}\sum_{j=0}^{n-1}[I(i,j)-K(i,j)]^2
+$$
+
+$$
+PSNR=10\cdot\log_{10}{(\frac{MAX_I^2}{MSE})}
+$$
+
+`ffmpeg -i distorted.mpg -i reference.mpg -lavfi 'psnr=stats_file=psnr_logfile.txt' -f null -`
+
+`ffmpeg -i distorted-sd.mpg -i reference-hd.mpg -lavfi '[1]scale=-1:720[a];[0][a]psnr=stats_file=psnr_logfile.txt' -f null -`
