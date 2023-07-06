@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0A7CC52A56A5820078A0C2 /* libglog.0.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0A7CC42A56A5820078A0C2 /* libglog.0.6.0.dylib */; };
+		8F5F5BD52A56A14F00C4A40A /* jpeg_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F5F5BD42A56A14F00C4A40A /* jpeg_helper.cpp */; };
+		8F5F5BD92A56A15900C4A40A /* ppm_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F5F5BD72A56A15900C4A40A /* ppm_helper.cpp */; };
+		8F5F5BDE2A56A16300C4A40A /* yuv_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F5F5BDD2A56A16300C4A40A /* yuv_helper.cpp */; };
+		8F5F5BE02A56A1C400C4A40A /* libjpeg.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5F5BDF2A56A1C400C4A40A /* libjpeg.9.dylib */; };
+		8F5F5BE42A56A1F200C4A40A /* libgflags.2.2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5F5BE32A56A1F200C4A40A /* libgflags.2.2.2.dylib */; };
 		D93BDC7F29FD14D3006F0E57 /* mod_openh264.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93BDC7D29FD14D3006F0E57 /* mod_openh264.cpp */; };
 		D94CCDA029FD137100BA7CA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D94CCD9F29FD137100BA7CA9 /* main.cpp */; };
 		D94CCDA829FD139400BA7CA9 /* libopenh264.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D94CCDA729FD139400BA7CA9 /* libopenh264.2.3.1.dylib */; };
@@ -25,11 +31,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F0A7CC42A56A5820078A0C2 /* libglog.0.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglog.0.6.0.dylib; path = /opt/homebrew/Cellar/glog/0.6.0/lib/libglog.0.6.0.dylib; sourceTree = "<group>"; };
+		8F5F5BD32A56A14F00C4A40A /* jpeg_helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jpeg_helper.hpp; sourceTree = "<group>"; };
+		8F5F5BD42A56A14F00C4A40A /* jpeg_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_helper.cpp; sourceTree = "<group>"; };
+		8F5F5BD72A56A15900C4A40A /* ppm_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ppm_helper.cpp; sourceTree = "<group>"; };
+		8F5F5BD82A56A15900C4A40A /* ppm_helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ppm_helper.hpp; sourceTree = "<group>"; };
+		8F5F5BDB2A56A16300C4A40A /* yuv_helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yuv_helper.hpp; sourceTree = "<group>"; };
+		8F5F5BDC2A56A16300C4A40A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F5F5BDD2A56A16300C4A40A /* yuv_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yuv_helper.cpp; sourceTree = "<group>"; };
+		8F5F5BDF2A56A1C400C4A40A /* libjpeg.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.9.dylib; path = /opt/homebrew/Cellar/jpeg/9e/lib/libjpeg.9.dylib; sourceTree = "<group>"; };
+		8F5F5BE32A56A1F200C4A40A /* libgflags.2.2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgflags.2.2.2.dylib; path = /opt/homebrew/Cellar/gflags/2.2.2/lib/libgflags.2.2.2.dylib; sourceTree = "<group>"; };
 		D93BDC7D29FD14D3006F0E57 /* mod_openh264.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mod_openh264.cpp; sourceTree = "<group>"; };
 		D93BDC7E29FD14D3006F0E57 /* mod_openh264.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mod_openh264.hpp; sourceTree = "<group>"; };
 		D94CCD9C29FD137100BA7CA9 /* mod_openh264 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mod_openh264; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94CCD9F29FD137100BA7CA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D94CCDA729FD139400BA7CA9 /* libopenh264.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenh264.2.3.1.dylib; path = ../../../../opt/homebrew/Cellar/openh264/2.3.1/lib/libopenh264.2.3.1.dylib; sourceTree = "<group>"; };
+		D94CCDA729FD139400BA7CA9 /* libopenh264.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenh264.2.3.1.dylib; path = /opt/homebrew/Cellar/openh264/2.3.1/lib/libopenh264.2.3.1.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5F5BE42A56A1F200C4A40A /* libgflags.2.2.2.dylib in Frameworks */,
+				8F0A7CC52A56A5820078A0C2 /* libglog.0.6.0.dylib in Frameworks */,
+				8F5F5BE02A56A1C400C4A40A /* libjpeg.9.dylib in Frameworks */,
 				D94CCDA829FD139400BA7CA9 /* libopenh264.2.3.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +63,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F5F5BD22A56A14F00C4A40A /* jpeg_helper */ = {
+			isa = PBXGroup;
+			children = (
+				8F5F5BD32A56A14F00C4A40A /* jpeg_helper.hpp */,
+				8F5F5BD42A56A14F00C4A40A /* jpeg_helper.cpp */,
+			);
+			name = jpeg_helper;
+			path = jpeg_helper/jpeg_helper/jpeg_helper;
+			sourceTree = SOURCE_ROOT;
+		};
+		8F5F5BD62A56A15900C4A40A /* ppm_helper */ = {
+			isa = PBXGroup;
+			children = (
+				8F5F5BD72A56A15900C4A40A /* ppm_helper.cpp */,
+				8F5F5BD82A56A15900C4A40A /* ppm_helper.hpp */,
+			);
+			name = ppm_helper;
+			path = jpeg_helper/jpeg_helper/ppm_helper;
+			sourceTree = SOURCE_ROOT;
+		};
+		8F5F5BDA2A56A16300C4A40A /* yuv_helper */ = {
+			isa = PBXGroup;
+			children = (
+				8F5F5BDB2A56A16300C4A40A /* yuv_helper.hpp */,
+				8F5F5BDC2A56A16300C4A40A /* README.md */,
+				8F5F5BDD2A56A16300C4A40A /* yuv_helper.cpp */,
+			);
+			name = yuv_helper;
+			path = jpeg_helper/jpeg_helper/yuv_helper;
+			sourceTree = SOURCE_ROOT;
+		};
 		D93BDC7C29FD14A5006F0E57 /* mod_openh264 */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +123,10 @@
 		D94CCD9E29FD137100BA7CA9 /* mod_openh264 */ = {
 			isa = PBXGroup;
 			children = (
+				8F5F5BD22A56A14F00C4A40A /* jpeg_helper */,
 				D93BDC7C29FD14A5006F0E57 /* mod_openh264 */,
+				8F5F5BD62A56A15900C4A40A /* ppm_helper */,
+				8F5F5BDA2A56A16300C4A40A /* yuv_helper */,
 				D94CCD9F29FD137100BA7CA9 /* main.cpp */,
 			);
 			path = mod_openh264;
@@ -82,6 +135,9 @@
 		D94CCDA629FD139400BA7CA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F0A7CC42A56A5820078A0C2 /* libglog.0.6.0.dylib */,
+				8F5F5BE32A56A1F200C4A40A /* libgflags.2.2.2.dylib */,
+				8F5F5BDF2A56A1C400C4A40A /* libjpeg.9.dylib */,
 				D94CCDA729FD139400BA7CA9 /* libopenh264.2.3.1.dylib */,
 			);
 			name = Frameworks;
@@ -144,8 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5F5BDE2A56A16300C4A40A /* yuv_helper.cpp in Sources */,
 				D93BDC7F29FD14D3006F0E57 /* mod_openh264.cpp in Sources */,
 				D94CCDA029FD137100BA7CA9 /* main.cpp in Sources */,
+				8F5F5BD52A56A14F00C4A40A /* jpeg_helper.cpp in Sources */,
+				8F5F5BD92A56A15900C4A40A /* ppm_helper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +324,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/openh264/2.3.1/include;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gflags/2.2.2/include,
+					/opt/homebrew/Cellar/glog/0.6.0/include,
+					/opt/homebrew/Cellar/jpeg/9e/include,
+					/opt/homebrew/Cellar/openh264/2.3.1/include,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/opt/homebrew/Cellar/gflags/2.2.2/lib,
+					/opt/homebrew/Cellar/glog/0.6.0/lib,
+					/opt/homebrew/Cellar/jpeg/9e/lib,
 					/opt/homebrew/Cellar/openh264/2.3.1/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,9 +345,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/openh264/2.3.1/include;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gflags/2.2.2/include,
+					/opt/homebrew/Cellar/glog/0.6.0/include,
+					/opt/homebrew/Cellar/jpeg/9e/include,
+					/opt/homebrew/Cellar/openh264/2.3.1/include,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/opt/homebrew/Cellar/gflags/2.2.2/lib,
+					/opt/homebrew/Cellar/glog/0.6.0/lib,
+					/opt/homebrew/Cellar/jpeg/9e/lib,
 					/opt/homebrew/Cellar/openh264/2.3.1/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
