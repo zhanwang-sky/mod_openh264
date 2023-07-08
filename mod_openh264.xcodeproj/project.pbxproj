@@ -86,9 +86,9 @@
 		8F5F5BDA2A56A16300C4A40A /* yuv_helper */ = {
 			isa = PBXGroup;
 			children = (
+				8F5F5BDD2A56A16300C4A40A /* yuv_helper.cpp */,
 				8F5F5BDB2A56A16300C4A40A /* yuv_helper.hpp */,
 				8F5F5BDC2A56A16300C4A40A /* README.md */,
-				8F5F5BDD2A56A16300C4A40A /* yuv_helper.cpp */,
 			);
 			name = yuv_helper;
 			path = jpeg_helper/jpeg_helper/yuv_helper;
